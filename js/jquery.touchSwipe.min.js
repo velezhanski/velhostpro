@@ -1,8 +1,8 @@
 /*
 * touchSwipe - jQuery Plugin
 * https://github.com/mattbryson/TouchSwipe-Jquery-Plugin
-* http://labs.skinkers.com/touchSwipe/
-* http://plugins.jquery.com/project/touchSwipe
+* https://labs.skinkers.com/touchSwipe/
+* https://plugins.jquery.com/project/touchSwipe
 *
 * Copyright (c) 2010 Matt Bryson (www.skinkers.com)
 * Dual licensed under the MIT or GPL Version 2 licenses.
