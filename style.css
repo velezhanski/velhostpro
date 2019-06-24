@@ -170,7 +170,7 @@ body a:hover
 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
-    font-size: 109px;
+    font-size: 42px;
     width: 245px;
     word-break: break-all;
     line-height: 83px;
@@ -260,10 +260,10 @@ body a:hover
     padding-bottom: 170px;
     min-height: calc(100vh - 170px);
     background-color: #231D5B; 
-    background-image:url(demo-images/background_img_01b.jpg); 
+    background-image: url(images/honey.png);
+    background-size: 100px;
     background-repeat: repeat; 
     background-position: center top; 
-    background-size: cover;
     z-index: 10;
 }
 
@@ -1197,6 +1197,12 @@ footer
 
 /* END SINGLE PORTFOLIO */
 
+/* CUSTOM CSS */
+
+.about-dates {
+  width: auto;
+}
+
 
 /* RESPONSIVE PART */
 
@@ -1239,9 +1245,9 @@ footer
 
     .section-title-holder h2
     {
-        font-size: 80px;
+        font-size: 30px;
         width: 177px;        
-        line-height: 66px;
+        line-height: 42px;
         margin-top: 25px;        
         margin-left: 75px; 
     }
