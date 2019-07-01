@@ -319,6 +319,7 @@ h1.big-title
 {
     background-color: #231D5B;
     z-index: 9;
+    background-image: url("images/icons/background_img_02.jpg");
 }
 
 #services .section-title-holder
