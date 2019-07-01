@@ -368,7 +368,7 @@ h1.big-title
 #portfolio
 {
     background-color: #231D5B; 
-    background-image: url("demo-images/background_img_02.jpg"); 
+    background-image: url("images/icons/background_img_02.jpg"); 
     background-repeat: no-repeat; 
     background-position: center top; 
     background-size: auto;
@@ -565,7 +565,7 @@ div.pp_default .pp_loaderIcon
 #about
 {
     background-color: rgb(34, 28, 90); 
-    background-image: url("demo-images/background_img_03.jpg"); 
+    background-image: url("images/icons/background_img_03.jpg"); 
     background-repeat: no-repeat; 
     background-position: center top; 
     background-size: cover; 
@@ -640,7 +640,7 @@ div.pp_default .pp_loaderIcon
 #news
 {
     background-color: rgb(34, 28, 90); 
-    background-image: url("demo-images/background_img_04.jpg"); 
+    background-image: url("images/icons/background_img_04.jpg"); 
     background-repeat: no-repeat; 
     background-position: center center; 
     background-size: cover; 
@@ -751,7 +751,7 @@ div.pp_default .pp_loaderIcon
 #video
 {
     background-color: rgb(34, 28, 90); 
-    background-image: url("demo-images/background_img_06.jpg"); 
+    background-image: url("images/icons/background_img_06.jpg"); 
     background-repeat: repeat-x; 
     background-position: center center; 
     background-size: auto; 
@@ -811,7 +811,7 @@ a.video-popup-holder:hover img.popup-play
 #skills
 {
     background-color: rgb(34, 28, 90); 
-    background-image: url("demo-images/item_background_01.jpg"); 
+    background-image: url("images/icons/item_background_01.jpg"); 
     background-repeat: no-repeat; 
     background-position: left top; 
     background-size: 100%; 
@@ -889,7 +889,7 @@ a.video-popup-holder:hover img.popup-play
 #contact
 {
     background-color: rgb(34, 28, 90); 
-    background-image: url("demo-images/background_img_05b.jpg"); 
+    background-image: url("images/icons/background_img_05b.jpg"); 
     background-repeat: no-repeat; 
     background-position: center top; 
     background-size: auto; 
@@ -1110,7 +1110,7 @@ footer
 #portfolio-1
 {
     background-color: #231D5B;
-    background-image:url("demo-images/background_img_05b.jpg"); 
+    background-image:url("images/icons/background_img_05b.jpg"); 
     background-repeat: no-repeat;
     background-position: center top;
     background-size: auto; 
@@ -1120,7 +1120,7 @@ footer
 {
 
     background-color: #231D5B;
-    background-image: url(demo-images/item_background_01.jpg);
+    background-image: url(images/icons/item_background_01.jpg);
     background-repeat: no-repeat;
     background-position: left top;
     background-size: 100% auto;
