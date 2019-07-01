@@ -1120,7 +1120,7 @@ footer
 {
 
     background-color: #231D5B;
-    background-image: url(images/icons/item_background_01.jpg);
+    background-image: url("images/icons/background_img_01b.jpg");
     background-repeat: no-repeat;
     background-position: left top;
     background-size: 100% auto;
