@@ -262,14 +262,16 @@ body a:hover
     background-color: #231D5B; 
     background-image: url(images/honey.png);
     background-size: 100px;
-    background-repeat: repeat; 
-    background-position: center top; 
     z-index: 10;
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: repeat;
 }
 
 .top-logo
 {
-    width: 360px; !important;    
+    width: 360px!important;    
     padding-top: 150px;
 }
 
