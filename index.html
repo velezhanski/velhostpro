@@ -372,12 +372,12 @@
           </div>
 
           <div class="one_half last">
-            <div class="contact-form" data-netlify="true">
-              <p><input id="name" type="text" name="your-name" placeholder="Name"></p>
-              <p><input id="contact-email" type="email" name="your-email" placeholder="Email"></p>
-              <p><input id="subject" type="text" name="your-subject" placeholder="Subject"></p>
-              <p><textarea id="message" name="your-message" placeholder="Message"></textarea></p>
-              <p><input type="submit" onClick="SendMail()" value="SEND"></p>
+            <div class="contact-form"  method="POST" data-netlify="true">
+              <p><input type="text" name="Name" placeholder="Name"></p>
+              <p><input type="email" name="Email" placeholder="Email"></p>
+              <p><input type="text" name="Subject" placeholder="Subject"></p>
+              <p><textarea name="Message" placeholder="Message"></textarea></p>
+              <p><input type="submit"value="SEND"></p>
             </div>
           </div>
 
