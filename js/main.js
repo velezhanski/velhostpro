@@ -10,7 +10,6 @@ jQuery(document).ready(function () {
         jQuery('.menu-wrapper a, .mob-menu').css('color', jQuery(this).find('.section-num span').css("color"));
     });
 
-
     //Placeholder show/hide
     jQuery('input, textarea').focus(function () {
         jQuery(this).data('placeholder', jQuery(this).attr('placeholder'));
@@ -19,7 +18,6 @@ jQuery(document).ready(function () {
     jQuery('input, textarea').blur(function () {
         jQuery(this).attr('placeholder', jQuery(this).data('placeholder'));
     });
-
 
     //Portfolio
     var grid = jQuery('.grid').imagesLoaded(function () {
@@ -44,7 +42,6 @@ jQuery(document).ready(function () {
     });
 
 });
-
 
 jQuery(window).load(function () {
 
@@ -102,7 +99,6 @@ jQuery(window).load(function () {
         var pagination_width = jQuery(this).find('.carousel_pagination').width();
         jQuery(this).find('.carousel_pagination').css("margin-left", (slider_width - pagination_width) / 2);
     });
-
 
     //Set each testimonial slider
     jQuery(".testimonial").each(function () {
@@ -205,7 +201,6 @@ jQuery(window).load(function () {
         });
     });
 
-
     //PrettyPhoto initial
     jQuery('a[data-rel]').each(function () {
         jQuery(this).attr('rel', jQuery(this).data('rel'));
@@ -270,12 +265,10 @@ jQuery(window).load(function () {
         }
     });
 
-
     jQuery('.section-title-holder').trigger("sticky_kit:recalc");
 
     jQuery('.doc-loader').fadeOut('fast');
 });
-
 
 jQuery(window).resize(function () {
 
@@ -302,7 +295,6 @@ jQuery(window).resize(function () {
         jQuery(this).find('.carousel_pagination').css("margin-left", (slider_width - pagination_width) / 2);
     });
 
-
     //Fix for portfolio item text
     jQuery('.portfolio-text-holder').each(function () {
         jQuery(this).find('.portfolio-text-wrapper').css('margin-top', (jQuery(this).height() - jQuery(this).find('.portfolio-text-wrapper').height()) / 2 - 70);
@@ -311,7 +303,6 @@ jQuery(window).resize(function () {
 //------------------------------------------------------------------------
 //Helper Methods -->
 //------------------------------------------------------------------------
-
 
 var showHideMobMenu = function (e) {
     jQuery('.main-menu').slideToggle();
@@ -327,4 +318,3 @@ var hideMobMenuItemClick = function (e) {
 function is_touch_device() {
     return !!('ontouchstart' in window);
 }
-
