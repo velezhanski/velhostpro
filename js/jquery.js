@@ -1124,7 +1124,11 @@
     return j
   }, n.extend({
     Deferred: function (a) {
-      var b = [["resolve", "done", n.Callbacks("once memory"), "resolved"], ["reject", "fail", n.Callbacks("once memory"), "rejected"], ["notify", "progress", n.Callbacks("memory")]],
+      var b = [
+          ["resolve", "done", n.Callbacks("once memory"), "resolved"],
+          ["reject", "fail", n.Callbacks("once memory"), "rejected"],
+          ["notify", "progress", n.Callbacks("memory")]
+        ],
         c = "pending",
         d = {
           state: function () {

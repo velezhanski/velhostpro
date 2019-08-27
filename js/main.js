@@ -1,11 +1,15 @@
 jQuery(document).ready(function () {
 
-    jQuery(".section-title-holder").stick_in_parent({offset_top: 64}).on("sticky_kit:stick", function (e) {
+    jQuery(".section-title-holder").stick_in_parent({
+        offset_top: 64
+    }).on("sticky_kit:stick", function (e) {
         // jQuery('.menu-wrapper, .menu-wrapper .sub-menu').css('backgroundColor', jQuery(this).css("backgroundColor"));
         jQuery('.menu-wrapper a, .mob-menu').css('color', jQuery(this).find('.section-num span').css("color"));
     });
 
-    jQuery(".section-title-holder").stick_in_parent({offset_top: 64}).on("sticky_kit:unbottom", function (e) {
+    jQuery(".section-title-holder").stick_in_parent({
+        offset_top: 64
+    }).on("sticky_kit:unbottom", function (e) {
         // jQuery('.menu-wrapper, .menu-wrapper .sub-menu').css('backgroundColor', jQuery(this).css("backgroundColor"));
         jQuery('.menu-wrapper a, .mob-menu').css('color', jQuery(this).find('.section-num span').css("color"));
     });
@@ -26,8 +30,7 @@ jQuery(document).ready(function () {
             masonry: {
                 columnWidth: '.grid-sizer'
             }
-        }
-        );
+        });
         //Fix for portfolio item text
         jQuery('.portfolio-text-holder').each(function () {
             jQuery(this).find('.portfolio-text-wrapper').css('margin-top', (jQuery(this).height() - jQuery(this).find('.portfolio-text-wrapper').height()) / 2 - 70);
@@ -47,8 +50,7 @@ jQuery(window).load(function () {
 
     //Show-Hide Mobile Menu
     jQuery('.mob-menu').on("click", showHideMobMenu);
-    if (jQuery("body").width() <= 925)
-    {
+    if (jQuery("body").width() <= 925) {
         jQuery('.main-menu a').on("click", hideMobMenuItemClick);
     }
 
@@ -56,16 +58,14 @@ jQuery(window).load(function () {
     jQuery(".image-slider").each(function () {
         var id = jQuery(this).attr('id');
         var auto_value = window[id + '_auto'];
-        if (auto_value == 'false')
-        {
+        if (auto_value == 'false') {
             auto_value = false;
         } else {
             auto_value = true;
         }
 
         var hover_pause = window[id + '_hover'];
-        if (hover_pause == 'true')
-        {
+        if (hover_pause == 'true') {
             hover_pause = 'resume';
         } else {
             hover_pause = false;
@@ -104,16 +104,14 @@ jQuery(window).load(function () {
     jQuery(".testimonial").each(function () {
         var id = jQuery(this).attr('id');
         var auto_value = window[id + '_auto'];
-        if (auto_value == 'false')
-        {
+        if (auto_value == 'false') {
             auto_value = false;
         } else {
             auto_value = true;
         }
 
         var hover_pause = window[id + '_hover'];
-        if (hover_pause == 'true')
-        {
+        if (hover_pause == 'true') {
             hover_pause = 'resume';
         } else {
             hover_pause = false;
@@ -153,16 +151,14 @@ jQuery(window).load(function () {
         var id = jQuery(this).attr('id');
 
         var auto_value = window[id + '_auto'];
-        if (auto_value == 'false')
-        {
+        if (auto_value == 'false') {
             auto_value = false;
         } else {
             auto_value = true;
         }
 
         var hover_pause = window[id + '_hover'];
-        if (hover_pause == 'true')
-        {
+        if (hover_pause == 'true') {
             hover_pause = 'resume';
         } else {
             hover_pause = false;
@@ -206,22 +202,36 @@ jQuery(window).load(function () {
         jQuery(this).attr('rel', jQuery(this).data('rel'));
     });
     jQuery("a[rel^='prettyPhoto']").prettyPhoto({
-        animation_speed: 'fast', /* fast/slow/normal */
-        slideshow: false, /* false OR interval time in ms */
-        autoplay_slideshow: false, /* true/false */
-        opacity: 0.80, /* Value between 0 and 1 */
-        show_title: true, /* true/false */
-        allow_resize: true, /* Resize the photos bigger than viewport. true/false */
+        animation_speed: 'fast',
+        /* fast/slow/normal */
+        slideshow: false,
+        /* false OR interval time in ms */
+        autoplay_slideshow: false,
+        /* true/false */
+        opacity: 0.80,
+        /* Value between 0 and 1 */
+        show_title: true,
+        /* true/false */
+        allow_resize: true,
+        /* Resize the photos bigger than viewport. true/false */
         default_width: 500,
         default_height: 344,
-        counter_separator_label: '/', /* The separator for the gallery counter 1 "of" 2 */
-        theme: 'pp_default', /* light_rounded / dark_rounded / light_square / dark_square / facebook */
-        hideflash: false, /* Hides all the flash object on a page, set to TRUE if flash appears over prettyPhoto */
-        wmode: 'opaque', /* Set the flash wmode attribute */
-        autoplay: true, /* Automatically start videos: True/False */
-        modal: false, /* If set to true, only the close button will close the window */
-        overlay_gallery: false, /* If set to true, a gallery will overlay the fullscreen image on mouse over */
-        keyboard_shortcuts: true, /* Set to false if you open forms inside prettyPhoto */
+        counter_separator_label: '/',
+        /* The separator for the gallery counter 1 "of" 2 */
+        theme: 'pp_default',
+        /* light_rounded / dark_rounded / light_square / dark_square / facebook */
+        hideflash: false,
+        /* Hides all the flash object on a page, set to TRUE if flash appears over prettyPhoto */
+        wmode: 'opaque',
+        /* Set the flash wmode attribute */
+        autoplay: true,
+        /* Automatically start videos: True/False */
+        modal: false,
+        /* If set to true, only the close button will close the window */
+        overlay_gallery: false,
+        /* If set to true, a gallery will overlay the fullscreen image on mouse over */
+        keyboard_shortcuts: true,
+        /* Set to false if you open forms inside prettyPhoto */
         deeplinking: false,
         social_tools: false,
         iframe_markup: '<iframe src ="{path}" width="{width}" height="{height}" frameborder="no" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>'
@@ -233,8 +243,7 @@ jQuery(window).load(function () {
     jQuery("a[rel^='prettyPhoto']").each(function () {
 
         var str = jQuery(this).attr('href');
-        if ((str.indexOf("youtube") >= 0 || (str.indexOf("vimeo")) >= 0))
-        {
+        if ((str.indexOf("youtube") >= 0 || (str.indexOf("vimeo")) >= 0)) {
             jQuery(this).attr("href", str + "&width=" + $videoDefaultWidth + "&height=" + $videoDefaultHeight);
         }
     });
@@ -249,7 +258,7 @@ jQuery(window).load(function () {
         var obj = $mainMenu.data('smartmenus');
         if (obj.isCollapsible()) {
             var $item = jQuery(this).parent(),
-                    $sub = $item.parent().dataSM('sub');
+                $sub = $item.parent().dataSM('sub');
             $sub.dataSM('arrowClicked', true);
         }
     }).bind({
@@ -273,8 +282,7 @@ jQuery(window).load(function () {
 jQuery(window).resize(function () {
 
     //Show-Hide Mobile Menu        
-    if (jQuery("body").width() <= 925)
-    {
+    if (jQuery("body").width() <= 925) {
         jQuery('.main-menu a').on("click", hideMobMenuItemClick);
     }
 
@@ -284,8 +292,7 @@ jQuery(window).resize(function () {
 
         var str = jQuery(this).attr('href');
         str = str.split('&width');
-        if ((str[0].indexOf("youtube") >= 0 || (str[0].indexOf("vimeo")) >= 0))
-        {
+        if ((str[0].indexOf("youtube") >= 0 || (str[0].indexOf("vimeo")) >= 0)) {
             jQuery(this).attr("href", str[0] + "&width=" + $videoDefaultWidth + "&height=" + $videoDefaultHeight);
         }
     });
@@ -309,8 +316,7 @@ var showHideMobMenu = function (e) {
 };
 
 var hideMobMenuItemClick = function (e) {
-    if (jQuery('.mob-menu').is(':visible'))
-    {
+    if (jQuery('.mob-menu').is(':visible')) {
         jQuery('.main-menu').slideUp();
     }
 };
