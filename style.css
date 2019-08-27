@@ -4,6 +4,7 @@ body {
     line-height: 26px;
     font-weight: 400;
     color: #23214c;
+    background-color: #121824;
 }
 
 body a {
@@ -51,8 +52,6 @@ body a:hover {
 .full-width {
     line-height: 0;
 }
-
-
 
 /* TOP MENU */
 
@@ -117,8 +116,6 @@ body a:hover {
 }
 
 /* END TOP MENU */
-
-
 
 /* GENERAL SECTION */
 
@@ -225,8 +222,6 @@ body a:hover {
 
 /* END GENERAL SECTION */
 
-
-
 /* HOME SECTION */
 
 .intro-page {
@@ -292,8 +287,6 @@ h1.big-title {
 
 /* END HOME SECTION */
 
-
-
 /* SERVICE SECTION */
 
 #services {
@@ -341,8 +334,6 @@ h1.big-title {
 }
 
 /* END SERVICE SECTION */
-
-
 
 /* PORTFOLIO SECTION */
 
@@ -517,8 +508,6 @@ div.pp_default .pp_loaderIcon {
 
 /* END PORTFOLIO SECTION*/
 
-
-
 /* ABOUT SECTION */
 
 #about {
@@ -583,7 +572,6 @@ div.pp_default .pp_loaderIcon {
 }
 
 /* END ABOUT SECTION */
-
 
 /* NEWS SECTION */
 
@@ -683,8 +671,6 @@ div.pp_default .pp_loaderIcon {
 
 /* END NEWS SECTION */
 
-
-
 /* VIDEO SECTION */
 
 #video {
@@ -733,12 +719,7 @@ a.video-popup-holder:hover img.popup-play {
 
 /* END VIDEO SECTION */
 
-
-
-
-
 /* SKILLS SECTION */
-
 
 #skills {
     background-color: rgb(34, 28, 90);
@@ -806,9 +787,6 @@ a.video-popup-holder:hover img.popup-play {
 }
 
 /* END SKILLS SECTION */
-
-
-
 
 /* CONTACT SECTION */
 
@@ -982,7 +960,6 @@ span.contact-form-not-valid-tip {
 
 /* END CONTACT SECTION */
 
-
 /* FOOTER */
 
 footer {
@@ -1023,8 +1000,6 @@ footer {
 }
 
 /* END FOOTER */
-
-
 
 /* SINGLE PORTFOLIO PAGE */
 
@@ -1111,7 +1086,6 @@ footer {
 .about-dates {
     width: auto;
 }
-
 
 /* RESPONSIVE PART */
 
@@ -1497,7 +1471,6 @@ footer {
         display: none !important;
     }
 
-
 }
 
 @media screen and (max-width: 805px) {
@@ -1514,9 +1487,7 @@ footer {
 
 }
 
-
 @media screen and (max-width: 650px) {
-
 
     .member-content-holder {
         width: 90%;
@@ -1533,7 +1504,6 @@ footer {
         left: 30px;
     }
 }
-
 
 @media screen and (max-width: 350px) {
 
