@@ -228,7 +228,7 @@ body a:hover {
 
     padding-bottom: 170px;
     min-height: calc(100vh - 170px);
-    background-color: #231D5B;
+    background-color: #131927;
     background-image: url("images/icons/bg-1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -280,7 +280,7 @@ h1.big-title {
 /* SERVICE SECTION */
 
 #services {
-    background-color: #231D5B;
+    background-color: #131927;
     z-index: 9;
     background-image: url("images/icons/bg-2.jpg");
     background-repeat: no-repeat;
@@ -328,7 +328,7 @@ h1.big-title {
 /* PORTFOLIO SECTION */
 
 #portfolio {
-    background-color: #231D5B;
+    background-color: #131927;
     z-index: 9;
     background-image: url("images/icons/bg-3.jpg");
     background-repeat: no-repeat;
