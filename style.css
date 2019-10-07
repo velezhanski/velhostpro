@@ -17,6 +17,10 @@ body a:hover {
     color: #ee87a4;
 }
 
+.section div div {
+    border-radius: 10px;
+}
+
 .doc-loader {
     position: fixed;
     left: 0px;
@@ -664,6 +668,14 @@ div.pp_default .pp_loaderIcon {
 .map img {
     max-width: none;
     max-height: none;
+}
+
+.contact-form-container {
+    width: 100%;
+    margin-right: 100px;
+    float: left;
+    position: relative;
+    margin-bottom: 30px;
 }
 
 .contact-form {
