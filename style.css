@@ -7,6 +7,10 @@ body {
     background-color: #121824;
 }
 
+.box-shadow {
+    box-shadow: #0c0f18 0px 0px 20px 10px;
+}
+
 body a {
     text-decoration: none;
     color: #23214c;
